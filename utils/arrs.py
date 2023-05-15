@@ -1,6 +1,5 @@
 """Функции для работы с массивами"""
 
-
 def get(array, index, default=None):
     """
     Извлекает из списка значение по указанному индексу, если индекс существует.
@@ -43,4 +42,4 @@ def my_slice(coll, start=0, end=None):
 
     return coll[normalized_start:normalized_end]
 
-#print(get([], 0, "test"))
+#print(my_slice([], , ))
